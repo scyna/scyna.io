@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started with Scyna Framework - Step-by-Step Guide</title>
+    <meta name="description" content="Learn how to get started with Scyna Framework. Follow our step-by-step guide to set up your first microservices project using Scyna.">
+    <meta name="keywords" content="Scyna tutorial, microservices setup, event-driven development, Scyna getting started">
+    <link rel="canonical" href="https://www.scyna.io/getting-started.html">
+    <meta property="og:title" content="Get Started with Scyna Framework - Step-by-Step Guide">
+    <meta property="og:description" content="Start building microservices with Scyna Framework. Our comprehensive guide walks you through installation and your first project.">
+    <meta property="og:image" content="https://www.scyna.io/images/scyna-getting-started-og-image.jpg">
+    <meta property="og:url" content="https://www.scyna.io/getting-started.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SCYNA</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#prerequisites">Prerequisites</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#first-project">First Project</a></li>
+                <li><a href="#next-steps">Next Steps</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="content-section">
+            <h1>Getting Started with Scyna Framework</h1>
+            <p>Follow these step-by-step instructions to start building your first project with Scyna.</p>
+        </section>
+
+        <section id="prerequisites" class="content-section">
+            <h2>Prerequisites</h2>
+            <ul>
+                <li>Basic understanding of microservices and event-driven architecture</li>
+                <li>Familiarity with your chosen programming language (Go, Java, etc.)</li>
+                <li>Docker installed on your system</li>
+            </ul>
+        </section>
+
+        <section id="installation" class="content-section">
+            <h2>Installation</h2>
+            <ol>
+                <li>
+                    <h3>Install Scyna CLI</h3>
+                    <pre><code>npm install -g scyna-cli</code></pre>
+                </li>
+                <li>
+                    <h3>Set up Scyna environment</h3>
+                    <pre><code>scyna init my-scyna-project</code></pre>
+                </li>
+                <li>
+                    <h3>Navigate to your project directory</h3>
+                    <pre><code>cd my-scyna-project</code></pre>
+                </li>
+            </ol>
+        </section>
+
+        <section id="first-project" class="content-section">
+            <h2>Creating Your First Scyna Project</h2>
+            <ol>
+                <li>
+                    <h3>Define your service</h3>
+                    <pre><code>scyna create-service MyFirstService</code></pre>
+                </li>
+                <li>
+                    <h3>Define events and commands</h3>
+                    <pre><code>scyna create-event UserRegistered
+scyna create-command RegisterUser</code></pre>
+                </li>
+                <li>
+                    <h3>Implement your service logic</h3>
+                    <p>Open the generated files and add your business logic.</p>
+                </li>
+                <li>
+                    <h3>Build and run your service</h3>
+                    <pre><code>scyna build
+scyna run</code></pre>
+                </li>
+            </ol>
+        </section>
+
+        <section id="next-steps" class="content-section">
+            <h2>Next Steps</h2>
+            <ul>
+                <li>Explore Scyna's documentation for advanced features</li>
+                <li>Join the Scyna community forum for support and discussions</li>
+                <li>Check out sample projects and tutorials in our GitHub repository</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Scyna Framework</h3>
+                <p>Empowering modern microservices and event-driven architectures.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="architecture.html">Architecture</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Scyna.IO &copy; 2024 | <a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Popup -->
+    <div id="cookie-consent" class="cookie-consent">
+        <img src="images/cookie-icon.png" alt="Cookie Icon">
+        <p>We use cookies to improve your experience. Do you accept?</p>
+        <button id="accept-cookies">Accept</button>
+        <button id="reject-cookies">Reject</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

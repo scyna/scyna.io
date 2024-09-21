@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scyna Framework Architecture - Event-Driven, Microservices, and DDD</title>
+    <meta name="description" content="Explore the architecture of Scyna Framework, including event-driven design, microservices, domain-driven design, CQRS, and event sourcing.">
+    <meta name="keywords" content="Scyna architecture, event-driven, microservices, domain-driven design, CQRS, event sourcing">
+    <link rel="canonical" href="https://www.scyna.io/architecture.html">
+    <meta property="og:title" content="Scyna Framework Architecture - Event-Driven, Microservices, and DDD">
+    <meta property="og:description" content="Discover how Scyna Framework implements event-driven architecture, microservices, and domain-driven design principles.">
+    <meta property="og:image" content="https://www.scyna.io/images/scyna-architecture-og-image.jpg">
+    <meta property="og:url" content="https://www.scyna.io/architecture.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SCYNA</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#event-driven">Event-Driven</a></li>
+                <li><a href="#microservices">Microservices</a></li>
+                <li><a href="#domain-driven-design">DDD</a></li>
+                <li><a href="#cqrs-event-sourcing">CQRS & ES</a></li>
+                <li><a href="#event-modeling">Event Modeling</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="content-section">
+            <div class="section-content">
+                <h1>Scyna Framework Architecture</h1>
+                <p>Scyna is designed to support modern architectural patterns and principles for building scalable, maintainable, and efficient distributed systems. Here's an overview of the key architectural concepts employed in Scyna.</p>
+            </div>
+            <img src="images/scyna-architecture-overview.png" alt="Scyna Architecture Overview" class="section-image">
+        </section>
+
+        <section id="event-driven" class="content-section">
+            <div class="section-content">
+                <h2>Event-Driven Architecture</h2>
+                <p>Scyna embraces event-driven architecture, allowing systems to react to changes and communicate asynchronously through events.</p>
+                <ul>
+                    <li>Decoupled components communicating via events</li>
+                    <li>Improved scalability and flexibility</li>
+                    <li>Real-time processing and responsiveness</li>
+                    <li>Support for complex event processing (CEP)</li>
+                </ul>
+            </div>
+            <img src="images/event-driven-architecture.png" alt="Event-Driven Architecture" class="section-image">
+        </section>
+
+        <section id="microservices" class="content-section">
+            <div class="section-content">
+                <h2>Microservices</h2>
+                <p>Scyna provides robust support for developing and deploying microservices, enabling modular and independently scalable components.</p>
+                <ul>
+                    <li>Service discovery and registration</li>
+                    <li>Load balancing and fault tolerance</li>
+                    <li>API gateway integration</li>
+                    <li>Containerization and orchestration support</li>
+                </ul>
+            </div>
+            <img src="images/microservices-architecture.png" alt="Microservices Architecture" class="section-image">
+        </section>
+
+        <section id="domain-driven-design" class="content-section">
+            <div class="section-content">
+                <h2>Domain-Driven Design (DDD)</h2>
+                <p>Scyna incorporates DDD principles to help align software design with business domains and requirements.</p>
+                <ul>
+                    <li>Bounded contexts and ubiquitous language</li>
+                    <li>Aggregates and entities</li>
+                    <li>Domain events and value objects</li>
+                    <li>Strategic and tactical design patterns</li>
+                </ul>
+            </div>
+            <img src="images/domain-driven-design.png" alt="Domain-Driven Design" class="section-image">
+        </section>
+
+        <section id="cqrs-event-sourcing" class="content-section">
+            <div class="section-content">
+                <h2>CQRS and Event Sourcing</h2>
+                <p>Scyna supports Command Query Responsibility Segregation (CQRS) and Event Sourcing patterns for improved scalability and system evolution.</p>
+                <ul>
+                    <li>Separate read and write models</li>
+                    <li>Event store for capturing all changes</li>
+                    <li>Replay and audit capabilities</li>
+                    <li>Scalable read-side projections</li>
+                </ul>
+            </div>
+            <img src="images/cqrs-event-sourcing.png" alt="CQRS and Event Sourcing" class="section-image">
+        </section>
+
+        <section id="event-modeling" class="content-section">
+            <div class="section-content">
+                <h2>Event Modeling</h2>
+                <p>Scyna encourages event modeling to design and understand system behaviors and business processes from an event-centric perspective.</p>
+                <ul>
+                    <li>Visualizing system behavior through events</li>
+                    <li>Identifying key business processes</li>
+                    <li>Aligning stakeholders and developers</li>
+                    <li>Facilitating iterative design and development</li>
+                </ul>
+            </div>
+            <img src="images/event-modeling.png" alt="Event Modeling" class="section-image">
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Scyna Framework</h3>
+                <p>Empowering modern microservices and event-driven architectures.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="architecture.html">Architecture</a></li>
+                    <li><a href="index.html#features">Features</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Scyna.IO &copy; 2024 | <a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Popup -->
+    <div id="cookie-consent" class="cookie-consent">
+        <img src="images/cookie-icon.png" alt="Cookie Icon">
+        <p>We use cookies to improve your experience. Do you accept?</p>
+        <button id="accept-cookies">Accept</button>
+        <button id="reject-cookies">Reject</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
